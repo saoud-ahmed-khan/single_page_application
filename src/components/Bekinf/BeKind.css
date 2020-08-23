@@ -1,0 +1,60 @@
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    
+   
+
+}
+.bg
+{
+background-color: #FFC0CB;
+width: 100%;
+}
+
+.bg1
+{
+background-color: #AFEEEE;
+width: 100%;
+
+}
+
+.bg2
+{
+background-color: #FFDAB9;
+width: 100%;
+
+}
+.bg4
+{
+background-color: #F4F6F7;
+width: 100%;
+
+}
+.bg3
+{
+background-color: 	#ADD8E6;
+width: 100%;
+
+}
+.content{
+    width: 50%;
+}
+.content h1
+{
+    font-size: 4rem;
+}
+.content p{
+    font-size: 1.4rem;
+    font-weight: 350;
+    line-height: 35px;
+}
+.pic
+{
+    width: 50%;
+}
