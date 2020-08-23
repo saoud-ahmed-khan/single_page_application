@@ -5,19 +5,22 @@ import { BeAssertive } from "../src/components/BeAssertive/Beassertive";
 import { Listen } from "./components/LIsten/LIsten";
 import { Connect } from "./components/connect/Connect";
 import { BeResponsible } from "./components/BeResponsible/BeResponsible";
-
+import "./components/Bekinf/BeKind.css"
 
 
 
 function App() {
   return (
     <div >
-      <Nav/>
+     
+      <div> <Nav/></div>
       <BeKind/>
       <BeAssertive/>
       <Listen/>
       <Connect/>
       <BeResponsible/>
+
+      
 
     </div>
   );
