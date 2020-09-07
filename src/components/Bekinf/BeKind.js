@@ -5,7 +5,7 @@ import "./BeKind.css"
 
 export const BeKind = () => {
     return (
-        <div className="bg">
+        <div className="bg" id="kind">
         <div className="main">
             <div className="pic">
             <Lottie options={{ animationData: pic , loop: true, autoplay: true, rendererSettings: { preserveAspectRatio: "xMidYMid slice", }, }}

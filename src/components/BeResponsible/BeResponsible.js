@@ -5,7 +5,7 @@ import "../Bekinf/BeKind.css"
 
 export const  BeResponsible = () => {
     return (
-        <div className="bg4">
+        <div className="bg4" id="Responsible">
         <div className="main">
             <div className="pic">
             <Lottie options={{ animationData: pic , loop: true, autoplay: true, rendererSettings: { preserveAspectRatio: "xMidYMid slice", }, }}

@@ -5,7 +5,7 @@ import "../Bekinf/BeKind.css"
 
 export const BeAssertive = () => {
     return (
-        <div className="bg1">
+        <div className="bg1" id="assertive">
             
         <div className="main">
         <div className="content">

@@ -5,7 +5,7 @@ import "../Bekinf/BeKind.css"
 
 export const Connect = () => {
     return (
-        <div className="bg3">
+        <div className="bg3" id="Connect">
             
         <div className="main">
         <div className="content">

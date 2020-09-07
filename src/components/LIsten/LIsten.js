@@ -5,7 +5,7 @@ import "../Bekinf/BeKind.css"
 
 export const Listen = () => {
     return (
-        <div className="bg2">
+        <div className="bg2" id="listen">
         <div className="main">
             <div className="pic">
             <Lottie options={{ animationData: pic , loop: true, autoplay: true, rendererSettings: { preserveAspectRatio: "xMidYMid slice", }, }}
