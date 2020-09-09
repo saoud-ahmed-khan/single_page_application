@@ -7,20 +7,24 @@ import { Connect } from "./components/connect/Connect";
 import { BeResponsible } from "./components/BeResponsible/BeResponsible";
 import { NewNav } from "./components/newNavbar/NewNav";
 import "./components/Bekinf/BeKind.css"
+import "./App.css"
 
 
 
 function App() {
   return (
     <div >
-       <NewNav></NewNav> 
-      <BeKind/>
-      <BeAssertive/>
-      <Listen/>
-      <Connect/>
-      <BeResponsible/>
-
-      
+      <main>
+        <section>
+          <NewNav></NewNav>
+        </section> 
+        <section><BeKind /></section>
+        <section><BeAssertive /></section>
+        <section><Listen /></section>
+        <section><Connect /></section>
+        <section><BeResponsible /></section> 
+          
+      </main>
 
     </div>
   );

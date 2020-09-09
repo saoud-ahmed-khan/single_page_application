@@ -2,11 +2,8 @@
 {
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    height: 100vh;
-    background-image: url(../../Animation/images.jpeg);
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+   
+    
 }
 
 a{
@@ -14,11 +11,11 @@ a{
 }
 .header
 {
-    background-color: rgba(0, 0,0, .4);
-    box-shadow: 1px 1px 4px 0 rgba(0, 0,0, .1);
+    background-color: rgba(13,110,139,.3);
     position: fixed;
     width: 100%;
     z-index: 3;
+    scroll-snap-align: start;
 }
 .header ul{
     margin: 0;
@@ -33,20 +30,39 @@ a{
     padding:10px;
     text-decoration: none;
     text-align: center;
+    
 
     
 }
-.header ul a:hover{
-    background-color:rgba(256, 256, 256, 0.2)
+/* ::-webkit-scrollbar
+{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: rgba(13,110,139,0.75);
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(#AFEEEE,#FFC0CB);
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background-image: linear-gradient(#FFC0CB,#AFEEEE);
+
+} */
+
+
+.header ul li:hover{
+    background-color:rgba(13,110,139,0.75);
+    display: block;
 }
 .header .logo{
     float: left;
     display: block;
     font-size: 2rem;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     text-decoration: none;
-    font-size: 2.3rem;
+    font-size: 2.4rem;
 letter-spacing:4px ;
 }
 .header .menu
@@ -142,10 +158,11 @@ background: transparent;
         padding: 20px;
         text-decoration: none;
     }
-    .header ul a:hover
+    .header ul li:hover
     {
-        background-color:rgba(256, 256, 256, 0.2);
+        background-color:rgba(13,110,139,0.75);
         transition: all .2s ease-out;
+
 
     }
     .header .menu-icon
@@ -153,4 +170,55 @@ background: transparent;
         display: none
     }
     
- }
+ 
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 3rem;
+    color: white;
+}
+.showcase{
+    color: white;
+    height: 100vh;
+    position: relative;
+
+}
+.showcase:before{
+    content: "";
+    background: url(../../Animation//images.jpeg) no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.showcase .showcase-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.showcase h1{
+    font-size: 4rem;
+}
+.showcase p{
+    font-size: 1.3rem;
+}
+.btn {
+    display: inline-block;
+    border: none;
+    background:rgba(13,110,139,0.75) ;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    transition: opacity 1s ease-in-out;
+    text-decoration: none;
+  }
+  .btn:hover {
+    opacity: 0.7;
+  }
+  
