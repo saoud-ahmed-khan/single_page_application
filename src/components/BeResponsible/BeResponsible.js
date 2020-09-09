@@ -20,7 +20,6 @@ export const  BeResponsible = () => {
             </div>
             <div className="content">
                 <h1>Be Responsible</h1>
-                <br/>
                 <p>We all make mistakes – and since design involves a lot of creation and decision-making,
                      it’s even more prone to that – and
                      that’s ok. Take on your choices and accept their consequences; if they're positive, great, 

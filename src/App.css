@@ -1,7 +1,9 @@
 main{
     overflow-y: scroll;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
+    height: 600vh;
 }
 section{
     scroll-snap-align: start;
+    height: 100vh;
 }
