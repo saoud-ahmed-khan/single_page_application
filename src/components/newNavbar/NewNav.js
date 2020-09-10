@@ -2,6 +2,11 @@ import React from 'react'
 import { Link } from "react-scroll";
 import "./NewNav.css"
 import useWebAnimations from "@wellyshen/use-web-animations";
+import { BeKind } from "../Bekinf/BeKind";
+import { BeAssertive } from "../BeAssertive/Beassertive";
+import { Listen } from "../LIsten/LIsten";
+import { Connect } from "../connect/Connect";
+import { BeResponsible } from "../BeResponsible/BeResponsible";
 
 
 
@@ -46,7 +51,13 @@ export const NewNav = () => {
                 </div>
 
             </header>
+           <BeKind></BeKind>
+           <BeAssertive>
 
+           </BeAssertive>
+           <Listen></Listen>
+           <Connect></Connect>
+           <BeResponsible></BeResponsible>
         </div>
     )
 }
