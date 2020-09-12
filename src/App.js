@@ -7,7 +7,7 @@ import { BeAssertive } from "./components/BeAssertive/Beassertive";
 import { Listen } from "./components/LIsten/LIsten";
 import { Connect } from "./components/connect/Connect";
 import { BeResponsible } from "./components/BeResponsible/BeResponsible";
-import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage'
+import Fullpage, { FullPageSections, FullpageSection ,FullpageNavigation} from '@ap.cx/react-fullpage'
 
 
 
@@ -18,6 +18,7 @@ function App() {
     <div >
       <main>
         <Fullpage>
+          <FullpageNavigation/>
           <FullPageSections>
             <FullpageSection><section><NewNav></NewNav></section></FullpageSection>
             <FullpageSection><section><BeKind /></section></FullpageSection>
