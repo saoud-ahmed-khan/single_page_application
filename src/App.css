@@ -1,16 +1,15 @@
-main{
-    scroll-snap-type: y mandatory;
-    height:100vh;
-    scroll-behavior: auto;
+/* main{
+    scroll-behavior: smooth;
     width: 100%;
     overflow-y: auto;
 
-}
-section{
-    scroll-snap-align: start;
-    height: 100vh;
-}
-div{
+    height: 100vh; 
     overflow:hidden;
 
+
 }
+section{
+     scroll-snap-align: start; 
+    height: 100vh;
+}
+*/
