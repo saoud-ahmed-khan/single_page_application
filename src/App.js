@@ -7,6 +7,8 @@ import { BeAssertive } from "./components/BeAssertive/Beassertive";
 import { Listen } from "./components/LIsten/LIsten";
 import { Connect } from "./components/connect/Connect";
 import { BeResponsible } from "./components/BeResponsible/BeResponsible";
+import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage'
+
 
 
 
@@ -15,18 +17,23 @@ function App() {
   return (
     <div >
       <main>
-        <section><NewNav></NewNav></section>
-        <section><BeKind/></section>
-        <section><BeAssertive/></section>
-        <section><Listen/></section>
-        <section><Connect/></section>
-        <section><BeResponsible/></section>
+        <Fullpage>
+          <FullPageSections>
+            <FullpageSection><section><NewNav></NewNav></section></FullpageSection>
+            <FullpageSection><section><BeKind /></section></FullpageSection>
+            <FullpageSection><section><BeAssertive /></section></FullpageSection>
+            <FullpageSection><section><Listen /></section></FullpageSection>
+            <FullpageSection><section><Connect /></section></FullpageSection>
+            <FullpageSection><section><BeResponsible /></section></FullpageSection>   
+          </FullPageSections>
+        </Fullpage>
 
-
-       
       </main>
 
     </div>
+
+
+
   );
 }
 
