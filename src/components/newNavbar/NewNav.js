@@ -23,7 +23,7 @@ export const NewNav = () => {
     return (
         <div className="body">
            
-            <header className="header">
+            {/* <header className="header">
                 <a href="/" className="logo"> SPA </a>
                 <input className="menu-btn" type="checkbox" id="menu-btn" />
                 <label className="menu-icon" for="menu-btn"><span className="nav-icon"></span></label>
@@ -34,7 +34,7 @@ export const NewNav = () => {
                     <li><a href="#" ><Link activeClass="active" to="Connect" spy={true} smooth={true} offset={0} duration={600}>Be Connect</Link></a></li>
                     <li><a href="#" ><Link activeClass="active" to="Responsible" spy={true} smooth={true} offset={0} duration={700}>Be Responsible</Link></a></li>
                 </ul>
-            </header>
+            </header> */}
             <header className="showcase">
                 <div className="container showcase-inner">
                     <h1 ref={text}>WELLCOME</h1>

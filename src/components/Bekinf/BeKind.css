@@ -48,11 +48,14 @@ width: 100%;
 .content h1
 {
     font-size: 4rem;
+    
 }
 .content p{
     font-size: 1.4rem;
     font-weight: 350;
-    line-height: 35px;
+    line-height: 30px;
+    margin-top: 0px;
+    
 }
 .pic
 {

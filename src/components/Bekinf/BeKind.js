@@ -20,7 +20,6 @@ export const BeKind = () => {
             </div>
             <div className="content">
                 <h1>Be Kind</h1>
-                <br/>
                 <p>If this sounds like a basic human rule – that’s 
                     because it is. But, sometimes, we can forget about that when working with others. Clients don’t need to know the importance of typography – that’s why they need you; a fellow designer might not 
                     be as good as you are in some areas and that’s ok – that’s why you are working together. <b>Bringing empathy</b> to the table is your ticket to success</p>

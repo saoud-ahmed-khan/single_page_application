@@ -21,11 +21,11 @@ function App() {
           <FullpageNavigation/>
           <FullPageSections>
             <FullpageSection><section><NewNav></NewNav></section></FullpageSection>
-            <FullpageSection><section><BeKind /></section></FullpageSection>
+            <FullpageSection><section ><BeKind  /></section></FullpageSection>
             <FullpageSection><section><BeAssertive /></section></FullpageSection>
             <FullpageSection><section><Listen /></section></FullpageSection>
             <FullpageSection><section><Connect /></section></FullpageSection>
-            <FullpageSection><section><BeResponsible /></section></FullpageSection>   
+            <FullpageSection><section id="Responsible"><BeResponsible /></section></FullpageSection>   
           </FullPageSections>
         </Fullpage>
 
