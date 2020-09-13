@@ -16,7 +16,7 @@ import Fullpage, { FullPageSections, FullpageSection ,FullpageNavigation} from '
 function App() {
   return (
     <div >
-      <main>
+      <main className="main1">
         <Fullpage>
           <FullpageNavigation/>
           <FullPageSections>

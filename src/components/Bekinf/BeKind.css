@@ -48,7 +48,7 @@ width: 100%;
 .content h1
 {
     font-size: 4rem;
-    
+    margin-bottom: 0px;
 }
 .content p{
     font-size: 1.4rem;
