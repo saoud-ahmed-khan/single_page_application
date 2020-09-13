@@ -9,13 +9,13 @@ export const Connect = () => {
             
         <div className="main">
         <div className="content">
-                <h1>Connect.</h1>
+                <h1>Connect ...</h1>
                 <br/>
-                <p>You can have talent as an individual, sure, but you’ll never truly be outstanding if you keep 
+                <p> <b>"</b>You can have talent as an individual, sure, but you’ll never truly be outstanding if you keep 
                     working as a lone wolf. Connecting with other designers
                      (with people from any field of work, really) helps us shift our
                       perspective and enhances our critical eye. Don’t be afraid to <b> share what you think and what you know</b>
-                      – nobody’s going to “steal your creativity”. Different visions can work out amazing solutions.</p>
+                      – nobody’s going to “steal your creativity”. Different visions can work out amazing solutions. <b>"</b></p>
             </div>
 
             <div className="pic">
