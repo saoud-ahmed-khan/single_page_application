@@ -8,12 +8,20 @@ import { Listen } from "./components/LIsten/LIsten";
 import { Connect } from "./components/connect/Connect";
 import { BeResponsible } from "./components/BeResponsible/BeResponsible";
 import Fullpage, { FullPageSections, FullpageSection ,FullpageNavigation} from '@ap.cx/react-fullpage'
+import AOS from 'aos';
+
 
 
 
 
 
 function App() {
+  // React.useEffect(() => {
+  //   AOS.init({
+  //     duration : 2000
+  //   });
+  // }, []);
+  AOS.init();
   return (
     <div >
       <main  style={{ cursor: 'url(./Animation/cursor-png-1142.png),auto' }} className="main1">
