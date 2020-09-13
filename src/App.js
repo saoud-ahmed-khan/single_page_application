@@ -16,7 +16,7 @@ import Fullpage, { FullPageSections, FullpageSection ,FullpageNavigation} from '
 function App() {
   return (
     <div >
-      <main className="main1">
+      <main  style={{ cursor: 'url(./Animation/cursor-png-1142.png),auto' }} className="main1">
         <Fullpage>
           <FullpageNavigation/>
           <FullPageSections>
@@ -25,7 +25,7 @@ function App() {
             <FullpageSection><section><BeAssertive /></section></FullpageSection>
             <FullpageSection><section><Listen /></section></FullpageSection>
             <FullpageSection><section><Connect /></section></FullpageSection>
-            <FullpageSection><section id="Responsible"><BeResponsible /></section></FullpageSection>   
+            <FullpageSection><section><BeResponsible /></section></FullpageSection>   
           </FullPageSections>
         </Fullpage>
 
