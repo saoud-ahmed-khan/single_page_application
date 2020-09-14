@@ -23,7 +23,9 @@ export const NewNav = () => {
     return (
         <div className="body">
            
-            {/* <header className="header">
+            {/* 
+            not suitable with SPA
+            <header className="header">
                 <a href="/" className="logo"> SPA </a>
                 <input className="menu-btn" type="checkbox" id="menu-btn" />
                 <label className="menu-icon" for="menu-btn"><span className="nav-icon"></span></label>
