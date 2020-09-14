@@ -203,9 +203,66 @@ background: transparent;
 }
 .showcase h1{
     font-size: 4rem;
+    margin-bottom: 0px;
 }
 .showcase p{
     font-size: 1.3rem;
+}
+/* adding responsiveness */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    .showcase h1{
+        font-size: 2.5rem;
+    }
+    .showcase p{
+        font-size: 1rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    .showcase h1{
+        font-size: 3rem;
+    }
+    .showcase p{
+        font-size: 1.1rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    .showcase h1{
+        font-size: 3.2rem;
+    }
+    .showcase p{
+        font-size: 1.2rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    .showcase h1{
+        font-size: 3.5rem;
+    }
+    .showcase p{
+        font-size: 1.25rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+    .showcase h1{
+        font-size: 4rem;
+    }
+    .showcase p{
+        font-size: 1.3rem;
+    }
+    
 }
 .btn {
     display: inline-block;

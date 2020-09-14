@@ -8,12 +8,12 @@ import useWebAnimations from "@wellyshen/use-web-animations";
 export const NewNav = () => {
     const { ref: text } = useWebAnimations({
         keyframes: [
-            { transform: "scale(0.95) " },
-            { transform: "scale(1.3)" },
+            { transform: "scale(1) " },
+            { transform: "scale(1.2)" },
         ],
         timing: {
             // delay: 500, // Start with a 500ms delay
-            duration: 2000, // Run for 1000ms
+            duration: 3000, // Run for 1000ms
             direction: "alternate", // Run the animation forwards and then backwards
             iterations: Infinity, // Repeat once
 
